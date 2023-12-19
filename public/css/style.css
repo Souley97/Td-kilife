@@ -1,0 +1,813 @@
+/* Route css */
+
+
+:root {
+    --white-color: #f8f7f7;
+    --grid-color: #4e4d4d;
+    --black-color: #000000;
+
+    --primary-color: #f6bb81 !important;
+    --secondary-color: ;
+    --bg-color: #e9ebec;
+    --border-color: #DEBD84;
+    --titre-color: #A6753F;
+    --font-titre: "Aleo", Helvetica, Arial, sans-serif;
+
+    --body-font-family: 'DM Sans', sans-serif;
+
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--body-font-family);
+}
+
+section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+ul li {
+
+    display: inline-block;
+
+    line-height: normal;
+
+}
+
+main {
+    display: block;
+
+
+}
+
+/* -----HEADER----- */
+header {
+    padding: 0;
+    left: 0;
+    margin: 0;
+    margin-top: -1.1vh;
+    padding-bottom: 13vh;
+
+
+
+
+}
+
+.navbar {
+    height: 12vh;
+    background: var(--primary-color);
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+
+
+}
+
+.navbar .logo img {
+    width: 112px;
+    margin-left: 18vh;
+}
+
+.navbar ul {
+    display: flex;
+    text-decoration: none;
+    padding-left:580px;
+    width: 100%;
+
+
+}
+
+.navbar ul li {
+
+    text-decoration: none;
+    line-height: normal;
+    display: inline-block;
+    padding: 0 14px;
+    width: 100%;
+
+
+}
+
+.navbar ul .contact {
+
+    border: 1px solid #000000;
+    border-radius: 16px;
+    padding: 6px 14px;
+
+
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    color: var(--black-color);
+
+
+}
+
+/* ----- FIN HEADER----- */
+
+/* -----  BANNIER GRID GAP----- */
+.bannier {
+    background: var(--primary-color);
+
+}
+
+.bannier .row {
+    display: flex;
+
+}
+
+
+.bannier .left-img {
+    height: 537px;
+    width: 954px;
+}
+
+.bannier .left-img img {
+    height: 537px;
+    width: 100%;
+}
+
+.bannier .right-descpt {
+    padding: 82px 30px;
+    display: block;
+    font-family: var(--font-titre);
+}
+
+
+.bannier .right-descpt .title {
+
+    font-size: 28px;
+}
+
+.bannier .right-descpt p {
+    width: 314px;
+    font-size: 17px;
+    color: var(--grid-color);
+}
+
+
+.bannier .right-descpt .link {
+    width: 310px;
+    font-size: 17px;
+    color: var(--grid-color);
+    padding: 12px;
+    background: var(--black-color);
+    margin: 52px 0;
+    color: var(--white-color);
+}
+
+
+
+.bannier .right-descpt .link span {
+    width: 314px;
+    font-size: 17px;
+    padding: 0 92px;
+
+}
+
+.bannier .right-descpt .link i {
+    font-size: 27px;
+    padding: 0 10px;
+
+}
+
+/* ----- FIN BANNIER----- */
+
+/* -----  CONTENER----- */
+.contener {
+    width: 100%;
+    color: var(--black-color);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+
+
+
+}
+
+.contener .row {
+    width: 75%;
+    color: var(--black-color);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    margin: 0 13%;
+
+
+
+
+}
+
+.contener .row .title {
+
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    margin: 39px 36%;
+    width: 120vh;
+    font-size: 19px;
+
+
+}
+
+.contener .tableau {
+    color: var(--black-color);
+
+    overflow: hidden;
+    position: relative;
+
+
+
+}
+
+.contener .tableau .flex {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 2px;
+    display: flex;
+
+}
+
+.contener .tableau .flex .icon {
+
+    height: 17vh;
+    width: 17vh;
+    padding: 34px 34px;
+}
+
+.contener .tableau .blog {
+
+    position: relative;
+    display: block;
+    padding: 7px 125px;
+
+
+
+}
+
+.contener .tableau .flex .title2 {
+
+    position: relative;
+    color: var(--titre-color);
+    font-size: 50px;
+    font-family: serif;
+
+
+}
+
+.contener .tableau .flex p {
+
+    position: relative;
+    width: 90%;
+    font-size: 20px;
+    color: var(--grid-color);
+
+
+}
+
+/*  */
+.contener .tableau .box {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 1px;
+    display: flex;
+
+}
+
+.contener .tableau .card {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 1px;
+    display: flex;
+
+}
+
+.contener .tableau .card .icon {
+
+    height: 15vh;
+    width: 15vh;
+    padding: 34px 34px;
+}
+
+.contener .tableau .card .blog {
+
+    position: relative;
+    display: block;
+    padding: 7px 145px;
+
+}
+
+.contener .tableau .card .title2 {
+
+    position: relative;
+    color: var(--titre-color);
+    font-size: 45px;
+    font-family: serif;
+    width: 89%;
+
+
+}
+
+.contener .tableau .card p {
+
+    position: relative;
+    font-size: 20px;
+    width: 57vh;
+    color: var(--grid-color);
+
+}
+
+.contener .box img {
+    width: 110px;
+    color: var(--black-color);
+    opacity: 0.33;
+    color: #000000;
+    position: absolute;
+
+
+}
+
+
+.contener .bg {
+    width: 12100px;
+    color: var(--black-color);
+    opacity: 0.33;
+    color: #000000;
+
+
+
+}
+
+/* ----- FIN CONTENER----- */
+
+
+/* -----  TEMOINAGE--- */
+.temoignage {
+    width: 100%;
+    color: var(--black-color);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    margin: 124px 0;
+
+
+
+}
+
+
+.temoignage .row {
+    width: 95%;
+    color: var(--black-color);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    margin: 0 2%;
+
+
+
+}
+
+.temoignage .tableau {
+    color: var(--black-color);
+
+    overflow: hidden;
+    position: relative;
+
+
+
+}
+
+.temoignage .tableau .flex {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 2px;
+    display: flex;
+
+}
+
+
+
+/*  */
+.temoignage .tableau .box {
+
+    overflow: hidden;
+    position: relative;
+    display: flex;
+
+    width: 100%;
+
+}
+
+.temoignage .tableau .card {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 2px;
+    display: flex;
+    width: 30%;
+    margin-left: 6vh;
+
+
+}
+
+.temoignage .tableau .card .icon {
+
+    height: 10vh;
+    width: 10vh;
+    padding: 28px 24px;
+}
+
+.temoignage .tableau .card .blog {
+
+    position: relative;
+    display: block;
+    padding: 7px 11px;
+
+}
+
+.temoignage .tableau .card .title2 {
+
+    position: relative;
+    color: var(--titre-color);
+    font-size: 25px;
+    font-family: serif;
+
+
+}
+
+.temoignage .tableau .card p {
+
+    position: relative;
+    font-size: 15px;
+    color: var(--grid-color);
+
+}
+
+/* ----- FIN TEMOINAGE--- */
+
+
+/* -----  MAITRE----- */
+
+.maitre .row {
+    display: flex;
+    margin: 0 13%;
+    width: 75%;
+    background: var(--black-color);
+
+}
+
+.maitre .left-img img {
+    height: 400px;
+    width: 400px;
+    margin: 80px 80px 40px;
+}
+
+.maitre .right-descpt {
+    padding: 82px 60px;
+    display: block;
+    font-family: var(--font-titre);
+}
+
+
+.maitre .right-descpt .title {
+
+    font-size: 35px;
+    color: var(--border-color);
+
+}
+
+.maitre .right-descpt p {
+    width: 314px;
+    font-size: 23px;
+    color: #bd9551;
+    padding: 33px 0;
+}
+
+
+/* ----- FIN MAITRE----- */
+
+
+
+/* -----  iNGEGNIEUR----- */
+.ingenieur {
+    margin: 6vh 0;
+}
+
+.ingenieur .row {
+    display: flex;
+    margin: 0 17%;
+    width: 60%;
+    border-top: 3px solid #bd9551;
+
+}
+
+
+.ingenieur .title {
+    color: black;
+    margin: 0 17%;
+}
+
+.ingenieur .left-img img {
+    height: 260px;
+    width: 460px;
+    margin-top: 20px;
+}
+
+.ingenieur .right-descpt {
+    padding: 20px 60px;
+    display: block;
+    font-family: var(--font-titre);
+}
+
+.ingenieur .right-descpt p {
+    width: 354px;
+    font-size: 23px;
+    color: #6e6969;
+}
+
+/*  */
+
+
+.ingenieur .row-2 {
+    display: flex;
+    margin: 0 17%;
+    width: 60%;
+
+}
+
+
+.ingenieur .row-2 .title {
+    color: black;
+    margin: 0 17%;
+}
+
+.ingenieur .row-2 .left-img img {
+    height: 460px;
+    width: 360px;
+    margin: 20px 90px 40px;
+}
+
+.ingenieur .row-2 .right-descpt {
+
+    padding: 0px 0px;
+    display: block;
+    font-family: var(--font-titre);
+}
+
+.ingenieur .row-2 .right-descpt p {
+    width: 454px;
+    font-size: 26px;
+    color: #6e6969;
+}
+
+
+
+/* -----FIN  INGEGNER----- */
+
+/* -----  CONTACT----- */
+.contact {}
+
+.contact .row {
+    display: flex;
+    margin: 0 10%;
+    width: 75%;
+    background: var(--primary-color);
+    color: #000000;
+
+}
+
+
+
+
+.contact .left-img iframe {
+
+    margin: 80px 0px 40px 80px;
+}
+
+.contact .right-descpt {
+    padding: 82px 30px;
+    display: block;
+    font-family: var(--font-titre);
+}
+
+
+.contact .right-descpt .title {
+
+    font-size: 25px;
+    color: #000000;
+
+
+}
+
+.contact .right-descpt p {
+    width: 314px;
+    font-size: 17px;
+    padding: -13px 0;
+    color: #000000;
+
+}
+
+
+.contact .right-descpt .phone {
+    display: flex;
+    color: #000000;
+
+}
+
+
+
+.contact .right-descpt .phone .link {
+    padding: 10px;
+    color: #0000;
+    border: 2px solid var(--black-color);
+    border-radius: 18px;
+    margin-left: 8px;
+    font-weight: bold;
+
+}
+
+.contact .right-descpt .phone .link a {
+
+    color: black;
+    font-size: 15px;
+
+
+}
+
+/* Formulaire */
+
+
+.contact .right-descpt .formulaire {
+
+    margin: 18px 0;
+    font-weight: bold;
+
+}
+
+
+.contact .formulaire .name {
+
+    display: block;
+
+}
+.contact .formulaire input {
+
+    display: block;
+    width: 264px;
+    height: 41px;
+    margin-top: 12px;
+
+}
+
+.contact .formulaire .name input {
+
+    display: block;
+
+    margin-top: 12px;
+
+}
+
+
+.contact .formulaire .adress {
+    margin: 18px 0;
+    display: flex;
+
+}
+
+
+
+.contact .formulaire .adress .phone {
+
+    display: block;
+    margin-left: 22px;
+
+}
+
+.contact .formulaire .adress .mail input {
+
+    display: block;
+    margin-top: 12px;
+
+}
+
+.contact .formulaire .adress .phone input {
+
+    display: block;
+    height: 41px;
+    margin-top: 12px;
+
+}
+
+/*  */
+.contact .formulaire .message {
+    margin: 18px 0;
+    display: block;
+
+}
+
+.contact .formulaire .message input {
+
+    display: block;
+    width: 560px;
+    height: 121px;
+    margin-top: 12px;
+
+}
+
+/*  */
+
+.contact .formulaire .btn {
+    margin: 18px 0;
+    display: block;
+    width: 560px;
+    height: 41px;
+
+
+
+}
+
+.contact .formulaire .btn button {
+    width: 560px;
+    height: 41px;
+
+    background: black;
+    color: #e9ebec;
+}
+
+/* ----- FIN CONTACT----- */
+
+/* -----  FOOTER----- */
+.footer {
+    margin-top: 5%;
+
+}
+
+.footer .row {
+    display: flex;
+    margin: 0 10%;
+    width: 75%;
+    background: var(--black-color);
+    color: #000000;
+
+}
+
+
+
+
+.footer .left-img {
+    padding: 23px 179px;
+}
+
+.footer .left-img img {
+    width: 183px;
+
+}
+
+.footer .right-descpt {
+    display: block;
+    font-family: var(--font-titre);
+}
+
+
+.footer .right-descpt .icone {
+    padding: 33px 240px;
+    font-size: 30px;
+    color: var(--border-color);
+    display: flex;
+
+}
+
+
+.footer .right-descpt .icone i {
+
+    font-size: 44px;
+    padding: 18px 23px;
+
+
+}
+
+
+
+/* -----  FIN FOOTER----- */

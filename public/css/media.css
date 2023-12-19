@@ -1,0 +1,168 @@
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .navbar {
+        padding-bottom: 8vh; 
+        background-color: #f6bb81; 
+    }
+
+    .navbar .logo img {
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .bannier .row {
+        display: block;
+    
+    }
+    .navbar ul {
+        padding-left: 10px; 
+    }
+
+    .bannier .left-img {
+        height: auto; 
+        width: 100%; 
+    }
+
+    .bannier .right-descpt {
+        padding: 20px; 
+    }
+
+    .bannier .right-descpt .title {
+        font-size: 24px; 
+        color: #A6753F;
+    }
+    .bannier .right-descpt p {
+        width: 100%;
+        font-size: 16px; 
+    }
+
+    .bannier .right-descpt .link {
+        width: 100%; 
+        margin: 20px 0;
+        
+        background: #000000; 
+        color: #f8f7f7; 
+    }
+    
+.contener .tableau .flex {
+
+    display: block;
+
+}
+
+.contener .tableau .flex .icon {
+
+
+    padding: 4px 4px;
+}
+
+.contener .tableau .blog {
+
+    position: relative;
+    display: block;
+
+
+
+}
+
+.contener .tableau .flex .title2 {
+
+    position: relative;
+    color: var(--titre-color);
+    font-size: 30px;
+    font-family: serif;
+
+
+}
+.contener .tableau .flex p {
+
+    position: relative;
+    width: 100vh;
+    font-size: 16px;
+    color: var(--grid-color);
+
+
+}
+.contener .tableau .box {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 1px;
+    display: block;
+
+}
+
+.contener .tableau .flex {
+
+    display: block;
+
+}
+
+
+.contener .tableau .blog {
+
+    position: relative;
+
+
+
+}
+
+.contener .tableau .flex .title2 {
+
+    position: relative;
+    color: var(--titre-color);
+    font-size: 50px;
+    font-family: serif;
+    display: block;
+    text-align: left;
+    align-items: left;
+
+
+}
+.contener .tableau .flex p {
+
+    position: relative;
+    font-size: 16px;
+    color: var(--grid-color);
+
+
+}
+.contener .tableau .box {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 1px;
+    display: block;
+
+}
+.contener .tableau .card {
+
+    overflow: hidden;
+    position: relative;
+    border: var(--border-color) solid 1px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contener .tableau .card .icon {
+
+    height: 15vh;
+    width: 15vh;
+    padding: 4px 134px;
+}
+.temoignage .tableau .box {
+
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+
+}
